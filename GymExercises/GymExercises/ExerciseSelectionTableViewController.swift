@@ -136,8 +136,8 @@ class ExerciseSelectionTableViewController: UITableViewController {
             
             if let selectedIndexPath = tableView.indexPathForSelectedRow {
                 exercises[selectedIndexPath.row] = exercise
-//                tableView.reloadRows(at: [selectedIndexPath], with: .none)
-                tableView.reloadData()
+                tableView.reloadRows(at: [selectedIndexPath], with: .none)
+//                tableView.reloadData()
             }
             else
             {

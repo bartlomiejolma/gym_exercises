@@ -66,13 +66,6 @@ class ExercisesDb {
     
     private func loadSampleExercises() {
         
-        let exercise1 = Exercise(name: "Dead Lift", photo: nil, weight: 50, lastTrained: Date(), step: 2.5)
-        
-        let exercise2 = Exercise(name: "Bench Press", photo: nil, weight: 50, lastTrained: Date(), step:2.5)
-        
-        self.addExercise(exercise1)
-        self.addExercise(exercise2)
-        
     }
     
     func readDb(){
