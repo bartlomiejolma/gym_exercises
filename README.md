@@ -1,6 +1,6 @@
 # gym_exercises
 
-Swift application that can be used to track progress on gym
+Swift application that can be used to track progress in the gym
 
 This project was created as a exercise to learn:
 - How to create mobile application with swift from scratch?
